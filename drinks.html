@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Напої — Sapore</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="logo">
+        SAPORE
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">
+            Головна
+        </a>
+
+        <a href="menu.html">
+            Меню
+        </a>
+
+        <a href="drinks.html" class="active">
+            Напої
+        </a>
+
+        <a href="contacts.html">
+            Контакти
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<section class="page-title">
+
+    <p class="small-title">
+        SAPORE BAR
+    </p>
+
+    <h1>
+        Напої
+    </h1>
+
+    <p>
+        Освіжаючі напої та ароматна кава
+    </p>
+
+</section>
+
+
+
+<section class="menu">
+
+
+    <!-- 1 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80"
+        alt="Капучино">
+
+        <div class="food-info">
+
+            <span class="category">
+                COFFEE
+            </span>
+
+            <h2>
+                Cappuccino
+            </h2>
+
+            <p>
+                Ароматна кава з ніжною
+                молочною пінкою.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    85 грн
+                </span>
+
+                <button onclick="order('Cappuccino')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 2 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80"
+        alt="Лате">
+
+        <div class="food-info">
+
+            <span class="category">
+                COFFEE
+            </span>
+
+            <h2>
+                Caffe Latte
+            </h2>
+
+            <p>
+                Еспресо, гаряче молоко
+                та ніжна молочна пінка.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    90 грн
+                </span>
+
+                <button onclick="order('Caffe Latte')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 3 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1621263764928-df1444c5a20d?auto=format&fit=crop&w=700&q=80"
+        alt="Лимонад">
+
+        <div class="food-info">
+
+            <span class="category">
+                LEMONADE
+            </span>
+
+            <h2>
+                Fresh Lemonade
+            </h2>
+
+            <p>
+                Лимон, м'ята, вода
+                та трохи солодкості.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    110 грн
+                </span>
+
+                <button onclick="order('Fresh Lemonade')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 4 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=700&q=80"
+        alt="Апельсиновий сік">
+
+        <div class="food-info">
+
+            <span class="category">
+                JUICE
+            </span>
+
+            <h2>
+                Fresh Orange
+            </h2>
+
+            <p>
+                Свіжовичавлений
+                апельсиновий сік.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    120 грн
+                </span>
+
+                <button onclick="order('Fresh Orange')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 5 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80"
+        alt="Мілкшейк">
+
+        <div class="food-info">
+
+            <span class="category">
+                MILKSHAKE
+            </span>
+
+            <h2>
+                Vanilla Milkshake
+            </h2>
+
+            <p>
+                Ванільне морозиво,
+                молоко та вершки.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    140 грн
+                </span>
+
+                <button onclick="order('Vanilla Milkshake')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 6 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80"
+        alt="Холодна кава">
+
+        <div class="food-info">
+
+            <span class="category">
+                ICED COFFEE
+            </span>
+
+            <h2>
+                Iced Coffee
+            </h2>
+
+            <p>
+                Холодна кава з молоком
+                та льодом.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    105 грн
+                </span>
+
+                <button onclick="order('Iced Coffee')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<footer>
+
+    <p>
+        © 2026 SAPORE — Restaurant
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
