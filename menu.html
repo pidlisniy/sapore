@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Меню — Sapore</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="logo">
+        SAPORE
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">
+            Головна
+        </a>
+
+        <a href="menu.html" class="active">
+            Меню
+        </a>
+
+        <a href="drinks.html">
+            Напої
+        </a>
+
+        <a href="contacts.html">
+            Контакти
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<section class="page-title">
+
+    <p class="small-title">
+        SAPORE RESTAURANT
+    </p>
+
+    <h1>
+        Наше меню
+    </h1>
+
+    <p>
+        Смачні страви для гарного настрою
+    </p>
+
+</section>
+
+
+
+<section class="menu">
+
+
+    <!-- 1 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=700&q=80"
+        alt="Піца Маргарита">
+
+        <div class="food-info">
+
+            <span class="category">
+                PIZZA
+            </span>
+
+            <h2>
+                Pizza Margherita
+            </h2>
+
+            <p>
+                Томатний соус, моцарела,
+                свіжий базилік та оливкова олія.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    240 грн
+                </span>
+
+                <button onclick="order('Pizza Margherita')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 2 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80"
+        alt="Паста">
+
+        <div class="food-info">
+
+            <span class="category">
+                PASTA
+            </span>
+
+            <h2>
+                Pasta Carbonara
+            </h2>
+
+            <p>
+                Паста, бекон, пармезан
+                та ніжний вершковий соус.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    280 грн
+                </span>
+
+                <button onclick="order('Pasta Carbonara')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 3 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+        alt="Бургер">
+
+        <div class="food-info">
+
+            <span class="category">
+                BURGER
+            </span>
+
+            <h2>
+                Sapore Burger
+            </h2>
+
+            <p>
+                Соковита яловичина, чеддер,
+                салат, томати та фірмовий соус.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    320 грн
+                </span>
+
+                <button onclick="order('Sapore Burger')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 4 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=700&q=80"
+        alt="Салат Цезар">
+
+        <div class="food-info">
+
+            <span class="category">
+                SALAD
+            </span>
+
+            <h2>
+                Caesar Salad
+            </h2>
+
+            <p>
+                Курка гриль, салат,
+                пармезан, томати та соус Цезар.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    230 грн
+                </span>
+
+                <button onclick="order('Caesar Salad')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 5 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80"
+        alt="Стейк">
+
+        <div class="food-info">
+
+            <span class="category">
+                MEAT
+            </span>
+
+            <h2>
+                Grilled Steak
+            </h2>
+
+            <p>
+                Яловичий стейк гриль
+                з овочами та фірмовим соусом.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    490 грн
+                </span>
+
+                <button onclick="order('Grilled Steak')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 6 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=700&q=80"
+        alt="Такос">
+
+        <div class="food-info">
+
+            <span class="category">
+                TACOS
+            </span>
+
+            <h2>
+                Chicken Tacos
+            </h2>
+
+            <p>
+                Курка, овочі, сир,
+                авокадо та гострий соус.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    260 грн
+                </span>
+
+                <button onclick="order('Chicken Tacos')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 7 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80"
+        alt="Чізкейк">
+
+        <div class="food-info">
+
+            <span class="category">
+                DESSERT
+            </span>
+
+            <h2>
+                Cheesecake
+            </h2>
+
+            <p>
+                Ніжний сирний десерт
+                з ягідним соусом.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    160 грн
+                </span>
+
+                <button onclick="order('Cheesecake')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 8 -->
+
+    <div class="food-card">
+
+        <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+        alt="Шоколадний торт">
+
+        <div class="food-info">
+
+            <span class="category">
+                DESSERT
+            </span>
+
+            <h2>
+                Chocolate Cake
+            </h2>
+
+            <p>
+                Шоколадний бісквіт,
+                крем та шоколадна глазур.
+            </p>
+
+            <div class="price">
+
+                <span>
+                    180 грн
+                </span>
+
+                <button onclick="order('Chocolate Cake')">
+                    Замовити
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<footer>
+
+    <p>
+        © 2026 SAPORE — Restaurant
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
